@@ -1,5 +1,5 @@
 import random
-import time, keyboard, os
+import time
 from player import player, mostrar_inventario
 from caminho_1 import executar_caminho1
 

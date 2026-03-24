@@ -157,33 +157,33 @@ class slime(entidade):
                         return
 
                     alvo.defesa -= hab["valor"]
-                    print(f"a acidez do {self.nome} correu a defesa")
+                    print(f"a acidez do {self.nome} {self.tipo} correu a defesa")
                     print(f"sua defesa caiu para {alvo.defesa}")
 
                 elif hab["efeito"] == "dano_continuo":
                     dano_con = hab["valor"]
-                    print(f"o {self.nome} jogou acido em voce")
+                    print(f"o {self.nome} {self.tipo} jogou acido em voce")
                     print(f"voce tomara {dano_con} por 2 rodadas")
 
                 elif hab["efeito"] == "penalidade_fuga":
-                    print(f"o {self.nome} dificulta a fuga")
+                    print(f"o {self.nome} {self.tipo} dificulta a fuga")
                     valor_acumulado = hab["valor"]
 
                 elif hab["efeito"] == "penalidade_esquiva":
-                    print(f"o {self.nome} dificulta seus movimentos")
+                    print(f"o {self.nome} {self.tipo} dificulta seus movimentos")
                     valor_acumulado = hab["valor"]
 
                 elif hab["efeito"] == "explosao":
                     dano_exp = hab["valor"]
                     alvo.receber_dano(dano_exp)
-                    print(f"o {self.nome} explodiu e te causou {dano_exp} de dano")
+                    print(f"o {self.nome} {self.tipo} explodiu e te causou {dano_exp} de dano")
 
                 elif hab["efeito"] == "chance_ataque_extra":
                     print(f"o {self.nome} {self.tipo} atacou de novo")
                     alvo.receber_dano(self.dano)
 
                 elif hab["efeito"] == "reduzir_ataque_inimigo":
-                    print(f"o {self.nome} diminuiu seu ataque")
+                    print(f"o {self.nome} {self.tipo} diminuiu seu ataque")
                     valor_acumulado = hab["valor"]
 
 
