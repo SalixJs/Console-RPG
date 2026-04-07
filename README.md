@@ -18,10 +18,21 @@ O projeto não tem como foco se tornar um jogo comercial, mas sim funcionar como
 - Estrutura de código organizada
 - Simulação de armazenamento de dados (funciona apenas durante a execução, sem sistema de salvamento permanente)
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Tecnologias e ferramentas
 
 - Python
-- (Adicionar outras se tiver, como JavaScript futuramente)
+- Git
+- GitHub
+- VS Code (com integração ao GitHub)
+
+## 🧪 Aprendizados aplicados
+
+Durante o desenvolvimento deste projeto, foram utilizados conceitos como:
+- Versionamento de código com Git
+- Uso do GitHub para controle de versões e backup do projeto
+- Integração do GitHub com o VS Code para commits e gerenciamento do código
+- Organização de arquivos e separação de responsabilidades no código
+- Lógica de programação aplicada ao desenvolvimento de jogos simples
 
 ## 🔄 Em desenvolvimento
 
